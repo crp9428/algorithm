@@ -1,0 +1,8 @@
+import sys
+
+def q2739():
+    n = int(input())
+    for i in [1, 2, 3, 4, 5, 6, 7, 8, 9]:
+        print("{} * {} = {}".format(n, i, n * i))
+
+q2739()
